@@ -1,6 +1,7 @@
 # Super Trunfo - Cadastro de Cidades
 
-Trabalho desenvolvido para a disciplina de programação em C, com o objetivo de criar um sistema simples de cadastro de cartas de cidades no estilo **Super Trunfo**.
+Trabalho desenvolvido para a disciplina de Introdução a programação (programação em C)
+, com o objetivo de criar um sistema simples de cadastro de cartas de cidades no estilo **Super Trunfo**.
 
 ## 📌 Funcionalidades
 
