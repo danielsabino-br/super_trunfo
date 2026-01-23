@@ -3,8 +3,8 @@
 int main() {
 
     // ===== CARTA 1 =====
-    char estado1;
-    char codigo1[4];
+    char estado1[3];
+    char codigo1[6];
     char nomeCidade1[50];
     unsigned long int populacao1;
     float area1;
@@ -14,8 +14,8 @@ int main() {
     float densidade1, pibPerCapita1, superPoder1;
 
     // ===== CARTA 2 =====
-    char estado2;
-    char codigo2[4];
+    char estado2[3];
+    char codigo2[6];
     char nomeCidade2[50];
     unsigned long int populacao2;
     float area2;
@@ -27,10 +27,10 @@ int main() {
     // ===== ENTRADA CARTA 1 =====
     printf("Carta 1\n");
     printf("Estado: ");
-    scanf(" %c", &estado1);
+    scanf(" %2s", estado1);
 
-    printf("Codigo: ");
-    scanf("%s", codigo1);
+    printf("Codigo:"); 
+    scanf("%5s", codigo1);
 
     printf("Nome da Cidade: ");
     scanf(" %[^\n]", nomeCidade1);
@@ -50,10 +50,10 @@ int main() {
     // ===== ENTRADA CARTA 2 =====
     printf("\nCarta 2\n");
     printf("Estado: ");
-    scanf(" %c", &estado2);
+    scanf("%2s", estado2);
 
-    printf("Codigo: ");
-    scanf("%s", codigo2);
+    printf("Codigo:");
+    scanf("%5s", codigo2);
 
     printf("Nome da Cidade: ");
     scanf(" %[^\n]", nomeCidade2);
