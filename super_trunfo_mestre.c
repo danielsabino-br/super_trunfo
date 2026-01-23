@@ -106,6 +106,9 @@ int main() {
 
     printf("PIB per Capita: Carta 1 venceu (%d)\n", pibPerCapita1 > pibPerCapita2);
     printf("Super Poder: Carta 1 venceu (%d)\n", superPoder1 > superPoder2);
+    
+    printf("Resultado final para (1= true, 0 = false), então Carta 1 venceu se for 1; se não, Carta 2 venceu o resultado é 0.\n");
 
+    
     return 0;
 }
